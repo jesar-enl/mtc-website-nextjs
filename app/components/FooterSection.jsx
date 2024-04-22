@@ -77,7 +77,7 @@ export default function FooterSection() {
         <Link href="#">
           <FaWhatsapp className="text-green-500 text-2xl md:text-3xl" />
         </Link>
-        <Link href="#">
+        <Link href="https://youtube.com/@SDAMasakaTownChurchMTC?si=bVkSlw6XMjj1v_S_">
           <FaYoutube className="text-red-600 text-2xl md:text-3xl" />
         </Link>
         <Link href="#">

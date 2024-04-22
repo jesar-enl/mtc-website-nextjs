@@ -1,3 +1,4 @@
+import DevelopmentMessage from '@/app/components/DevelopmentMessage';
 import Link from 'next/link';
 
 export const metadata = {
@@ -9,14 +10,16 @@ export const metadata = {
 
 export default function AdventurersMinistriesPage() {
   return (
-    <div className="p-8 m-8">
-      Adventurers Ministries Page
-      <Link
-        href="/ministries/youth_ministries"
-        className="ml-4 text-ming hover:text-blue-600"
-      >
-        back
-      </Link>
+    <div className="bg-gray-100">
+      {/* TODO: change the background color */}
+      <div className="bg-blue-900">
+        <div className="h-60 ml-6 flex items-end text-white">
+          <h1 className="text-xl md:text-3xl mb-4 tracking-wider">
+            Adventurer Ministry
+          </h1>
+        </div>
+      </div>
+      <DevelopmentMessage />
     </div>
   );
 }

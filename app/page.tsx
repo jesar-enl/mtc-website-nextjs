@@ -1,20 +1,23 @@
-import Image from 'next/image'
-import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
-import CounterSection from './components/CounterSection';
-import ServicesSection from './components/ServicesSection';
-import SermonsSection from './components/SermonsSection';
+import ContactSection from './components/ContactSection';
 import EventsSection from './components/EventsSection';
+import GallerySection from './components/GallerySection';
+import HeroSection from './components/HeroSection';
+import MinistriesSection from './components/MinistriesSection';
+import Resources from './components/Resources';
+import SermonsSection from './components/SermonsSection';
 
 export default function Home() {
   return (
-    <div>      
+    <div>
       <HeroSection />
       <AboutSection />
-      <CounterSection />
-      <ServicesSection />
+      <MinistriesSection />
       <SermonsSection />
-      <EventsSection />      
+      <ContactSection />
+      <EventsSection />
+      <GallerySection />
+      <Resources />
     </div>
-  )
+  );
 }

@@ -1,17 +1,16 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import FooterSection from './components/FooterSection';
+import Mission from './components/Mission';
+import NavbarSection from './components/NavbarSection';
 import Sidebar from './components/Sidebar';
 import './globals.css';
-import NavbarSection from './components/NavbarSection';
-import FooterSection from './components/FooterSection';
-
-const inter = Inter({ subsets: ['latin'] });
+import { adventSans } from './styles/fonts';
 
 export const metadata: Metadata = {
-  title: 'Masaka Town Church',
+  title: 'Home - Masaka Town Church',
   description:
     'A place where you can find all resources about Seventh-day Adventist Church - Masaka Town.',
-    icons: '/images/ming.png'
+  icons: '/images/ming-2.png',
 };
 
 export default function RootLayout({
@@ -21,11 +20,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={adventSans.className}>
         <div className="flex justify-between">
           <div className="flex flex-col w-[88.7%]">
             <NavbarSection />
             {children}
+            <Mission />
             <FooterSection />
           </div>
           <Sidebar />
