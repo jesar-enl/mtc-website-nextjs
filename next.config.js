@@ -18,6 +18,11 @@ const nextConfig = {
         hostname: 'material-taillwind-pro-ct-tailwind-team.vercel.app',
         port: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+        port: ''
+      }
     ],
   },
 };

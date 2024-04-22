@@ -1,4 +1,3 @@
-import { neonderthaw } from '../styles/fonts';
 
 export const metadata = {
   title: 'Contact Us - M.T.C',
@@ -9,16 +8,7 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <div className="bg-white">
-      {/** TODO: change the background color to image */}
-      <div className="bg-blue-700">
-        <div className="h-60 ml-6 flex items-end text-white py-4">
-          <div className="flex flex-col gap-2">
-            <h1 className="text-xl md:text-3xl  tracking-wider">Contact Us</h1>
-            <div className={neonderthaw.className}>
-              <p className="text-base tracking-wide">Get in touch</p>
-            </div>
-          </div>
-        </div>
+      <div className="bg-[url('/images/contactus.jpg')] bg-cover bg-no-repeat h-96">
       </div>      
       <div className="mt-3 ml-6 px-6 py-4 flex justify-center min-w-3xl">
         {/** TODO: change the form to use web3forms */}

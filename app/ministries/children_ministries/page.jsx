@@ -10,9 +10,8 @@ export const metadata = {
 export default function ChildrenMinistriesPage() {
   return (
     <div className="bg-gray-100">
-      {/* TODO: change the background color */}
-      <div className="bg-ming">
-        <div className="h-60 ml-6 flex items-end text-white">
+      <div className="bg-[url('/images/childrenMinistry.jpg')] bg-cover bg-no-repeat h-96">
+        <div className="relative bg-black bg-opacity-80 h-96 pl-6 flex items-end text-white">
           <h1 className="text-xl md:text-3xl mb-4 tracking-wider">
             Adventist Children Ministry
           </h1>

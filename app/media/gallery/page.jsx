@@ -10,12 +10,14 @@ export const metadata = {
 export default function page() {
   return (
     // TODO: change the background image
-    <div className="bg-blue-600">
-      <div className={merriRegular.className}>
-        <div className="h-32 mt-40 ml-6 text-white">
-          <h1 className="text-xl md:text-3xl tracking-wider">
-            Media - Gallery
-          </h1>
+    <div className="bg-gray-100">
+      <div className="bg-[url('/images/gallerymedia.jpg')] bg-cover bg-no-repeat h-96">
+        <div className="relative bg-black bg-opacity-80 h-96 pl-6 flex items-end text-white">
+          <div className={merriRegular.className}>
+            <h1 className="text-xl md:text-3xl tracking-wider">
+              Media - Gallery
+            </h1>
+          </div>
         </div>
       </div>
       <Gallery />

@@ -10,13 +10,8 @@ export const metadata = {
 export default function HealthMinistry() {
   return (
     <div className="bg-gray-100">
-      {/* TODO: change the background color */}
-      <div className="bg-ming2">
-        <div className="h-60 ml-6 flex items-end text-white">
-          <h1 className="text-xl md:text-3xl mb-4 tracking-wider">
-            Adventist Health Ministry
-          </h1>
-        </div>
+      <div className="bg-[url('/images/health2.jpg')] bg-cover bg-no-repeat h-96">
+        
       </div>
       <DevelopmentMessage />
     </div>
