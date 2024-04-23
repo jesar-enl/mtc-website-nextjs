@@ -1,11 +1,20 @@
+'use client';
+
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaDownload, FaFileAudio, FaFilePdf, FaRegFileAudio } from 'react-icons/fa6';
+import { FaFilePdf, FaRegFileAudio } from 'react-icons/fa6';
+import { HiDownload } from 'react-icons/hi';
 import { resources } from '../data';
 import { lato, merriRegular } from '../styles/fonts';
-import { HiDownload } from 'react-icons/hi';
 
 export default function Resources() {
+  const handlePdfClick = (pdfUrl) => {
+    const absolutePdfUrl = new URL(pdfUrl, window.location.origin).href;
+    window.open(absolutePdfUrl, '_blank');
+  };
+
   return (
     <div className="bg-gray-200 px-4 md:px-16 text-gray-900 pb-8">
       <div className={merriRegular.className}>
@@ -19,7 +28,7 @@ export default function Resources() {
         from the books listed below.
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
-        {resources.map(({ image, name, description }) => (
+        {resources.map(({ image, name, description, pdf }) => (
           <div
             key={name}
             className="flex flex-col md:flex-row gap-2 justify-center hover:-translate-y-3 mb-4 shadow-xl rounded-2xl px-4 py-5 bg-white"
@@ -40,11 +49,11 @@ export default function Resources() {
                 </p>
               </div>
               <div className="flex items-center justify-between">
-                <div className="flex flex-col w-fit px-2 md:px-4 py-1 md:py-2 mt-4 rounded-full border border-ming text-gray-800 text-sm justify-end hover:bg-ming hover:text-white">
-                  <Link href="/resource-center">Read more...</Link>
-                </div>
                 <div className="flex items-end gap-2">
-                  <FaFilePdf className="text-red-600 hover:cursor-pointer" />
+                  <FaFilePdf
+                    className="text-red-600 hover:cursor-pointer"
+                    onClick={() => handlePdfClick(pdf)}
+                  />
                   <FaRegFileAudio className="text-blue-600 hover:cursor-pointer" />
                   <HiDownload className="text-gray-800 hover:cursor-pointer" />
                 </div>

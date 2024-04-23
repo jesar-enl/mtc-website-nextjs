@@ -12,7 +12,7 @@ const nextConfig = {
         hostname: 'demos.creative-tim.com',
         port: '',
       },
-      
+
       {
         protocol: 'https',
         hostname: 'material-taillwind-pro-ct-tailwind-team.vercel.app',
@@ -21,9 +21,22 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'i.ibb.co',
-        port: ''
-      }
+        port: '',
+      },
     ],
+  },
+  webpack: (config, { isServer }) => {
+    // Fixes npm packages that depend on `fs` module
+    if (!isServer) {
+      config.resolve.fallback.fs = false;
+    }
+
+    config.module.rules.push({
+      test: /\.node$/,
+      use: 'node-loader',
+    });
+
+    return config;
   },
 };
 
