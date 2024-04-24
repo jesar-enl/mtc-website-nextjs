@@ -174,126 +174,63 @@ export const resourcesPage = [
     image: '/images/Bedtime Stories.jpg',
     description:
       'These stories of real life teach courtesy, patience, hnesty, cheerfulness, unselfishness, kindness, and devotion. Stories of Nature that create a love for the beautiful, the upright, and the true. Biography that tells of great lives worthy of emulation. Regular weekly...',
-      pdf: '/pdfFiles/Desire of Ages.pdf'
+    pdf: '/pdfFiles/Desire of Ages.pdf',
   },
   {
     name: 'Child Guidance',
     image: '/images/Child Guidance.jpg',
     description:
       "It's the privilege of parents to take their children with them to the gates of the city of God, saying, 'I have tried to instruuct my children to love the Lord, to do His will, and to glorify Him.' To such the gate will be thrown open, and parents and children will enter in. But all cannot enter. Some are left outside...'",
-      pdf: '/pdfFiles/Child Guidance.pdf'
+    pdf: '/pdfFiles/Child Guidance.pdf',
   },
   {
     name: 'God Encounters',
     image: '/images/God Encounters.jpg',
     description:
       "'Let the children come to me and do not hinder them, for the kingdom of heaven belongs to such as these.' Matthew 19:13-15. Children's ministries and in particular the Children's Sabbath School, exist to provide discipleship that ensures children come to Jesus and encouter God. Its vision is that...",
-      pdf: '/pdfFiles/Desire of Ages.pdf'
+    pdf: '/pdfFiles/Desire of Ages.pdf',
   },
   {
     name: 'I WILL GO',
     image: '/images/I will Go.jpg',
     description:
       'I WILL GO involves all church members in reaching the world, insipiring and equiping them to use their God given spiritual gifts in witness and service for Christ. "The home missionary work will be farther advanced in every way when a more liberal, self-denying, self-sacrificing spirit is manifested for the prosperity of foreign...',
-      pdf: '/pdfFiles/Desire of Ages.pdf'
+    pdf: '/pdfFiles/Desire of Ages.pdf',
   },
   {
     name: 'The Desire of Ages',
     image: '/images/Desire of Ages.jpg',
     description:
       'In the hearts of all mankind, of whatever race or station in life, there are inexpressible longings for something they do not now possess. This longing is implanted in the very constitution of man by a merciful God, that man may not be satisfied with his present conditions or attainments, whether bad or good, or better.',
-      pdf: '/pdfFiles/Desire of Ages.pdf'
+    pdf: '/pdfFiles/Desire of Ages.pdf',
   },
   {
     name: 'Early Writings',
     image: '/images/Early Writings.jpg',
     description:
       'Rare indeed it is in these changing times that a book lives on through a century in ever-increasing demand and takes its place in current reading by the side of books dealing with present issues. Yet such is the enviable record of Early Writings of Ellen G. White. Through the years there have been printings of the several editions.',
-      pdf: '/pdfFiles/Early Writings.pdf'
+    pdf: '/pdfFiles/Early Writings.pdf',
+  },
+];
+
+// sermon section
+// TODO: add more sermon audios in mp3 format
+export const sermonAudio = [
+  {
+    title: 'Do not bear false witness',
+    audio: "/audios/Do not bear false witness - children's sermon.mp3",
   },
   {
-    name: 'Bedtime Stories',
-    image: '/images/Bedtime Stories.jpg',
-    description:
-      'These stories of real life teach courtesy, patience, hnesty, cheerfulness, unselfishness, kindness, and devotion. Stories of Nature that create a love for the beautiful, the upright, and the true. Biography that tells of great lives worthy of emulation. Regular weekly...',
-      pdf: '/pdfFiles/Desire of Ages.pdf'
+    title: 'In such a time as this',
+    audio: '/audios/In such a time like this - Dr. Jumba.mp3',
   },
   {
-    name: 'Child Guidance',
-    image: '/images/Child Guidance.jpg',
-    description:
-      "It's the privilege of parents to take their children with them to the gates of the city of God, saying, 'I have tried to instruuct my children to love the Lord, to do His will, and to glorify Him.' To such the gate will be thrown open, and parents and children will enter in. But all cannot enter. Some are left outside...'",
-      pdf: '/pdfFiles/Desire of Ages.pdf'
+    title: 'PCM Sabbath',
+    audio: '/audios/PCM Sabbath - 19-11-2022.mp3',
   },
   {
-    name: 'God Encounters',
-    image: '/images/God Encounters.jpg',
-    description:
-      "'Let the children come to me and do not hinder them, for the kingdom of heaven belongs to such as these.' Matthew 19:13-15. Children's ministries and in particular the Children's Sabbath School, exist to provide discipleship that ensures children come to Jesus and encouter God. Its vision is that...",
-      pdf: '/pdfFiles/Desire of Ages.pdf'
-  },
-  {
-    name: 'I WILL GO',
-    image: '/images/I will Go.jpg',
-    description:
-      'I WILL GO involves all church members in reaching the world, insipiring and equiping them to use their God given spiritual gifts in witness and service for Christ. "The home missionary work will be farther advanced in every way when a more liberal, self-denying, self-sacrificing spirit is manifested for the prosperity of foreign...',
-      pdf: '/pdfFiles/Desire of Ages.pdf'
-  },
-  {
-    name: 'The Desire of Ages',
-    image: '/images/Desire of Ages.jpg',
-    description:
-      'In the hearts of all mankind, of whatever race or station in life, there are inexpressible longings for something they do not now possess. This longing is implanted in the very constitution of man by a merciful God, that man may not be satisfied with his present conditions or attainments, whether bad or good, or better.',
-      pdf: '/pdfFiles/Desire of Ages.pdf'
-  },
-  {
-    name: 'Early Writings',
-    image: '/images/Early Writings.jpg',
-    description:
-      'Rare indeed it is in these changing times that a book lives on through a century in ever-increasing demand and takes its place in current reading by the side of books dealing with present issues. Yet such is the enviable record of Early Writings of Ellen G. White. Through the years there have been printings of the several editions.',
-      pdf: '/pdfFiles/Desire of Ages.pdf'
-  },
-  {
-    name: 'Bedtime Stories',
-    image: '/images/Bedtime Stories.jpg',
-    description:
-      'These stories of real life teach courtesy, patience, hnesty, cheerfulness, unselfishness, kindness, and devotion. Stories of Nature that create a love for the beautiful, the upright, and the true. Biography that tells of great lives worthy of emulation. Regular weekly...',
-      pdf: '/pdfFiles/Desire of Ages.pdf'
-  },
-  {
-    name: 'Child Guidance',
-    image: '/images/Child Guidance.jpg',
-    description:
-      "It's the privilege of parents to take their children with them to the gates of the city of God, saying, 'I have tried to instruuct my children to love the Lord, to do His will, and to glorify Him.' To such the gate will be thrown open, and parents and children will enter in. But all cannot enter. Some are left outside...'",
-      pdf: '/pdfFiles/Desire of Ages.pdf'
-  },
-  {
-    name: 'God Encounters',
-    image: '/images/God Encounters.jpg',
-    description:
-      "'Let the children come to me and do not hinder them, for the kingdom of heaven belongs to such as these.' Matthew 19:13-15. Children's ministries and in particular the Children's Sabbath School, exist to provide discipleship that ensures children come to Jesus and encouter God. Its vision is that...",
-      pdf: '/pdfFiles/Desire of Ages.pdf'
-  },
-  {
-    name: 'I WILL GO',
-    image: '/images/I will Go.jpg',
-    description:
-      'I WILL GO involves all church members in reaching the world, insipiring and equiping them to use their God given spiritual gifts in witness and service for Christ. "The home missionary work will be farther advanced in every way when a more liberal, self-denying, self-sacrificing spirit is manifested for the prosperity of foreign...',
-      pdf: '/pdfFiles/Desire of Ages.pdf'
-  },
-  {
-    name: 'The Desire of Ages',
-    image: '/images/Desire of Ages.jpg',
-    description:
-      'In the hearts of all mankind, of whatever race or station in life, there are inexpressible longings for something they do not now possess. This longing is implanted in the very constitution of man by a merciful God, that man may not be satisfied with his present conditions or attainments, whether bad or good, or better.',
-      pdf: '/pdfFiles/Desire of Ages.pdf'
-  },
-  {
-    name: 'Early Writings',
-    image: '/images/Early Writings.jpg',
-    description:
-      'Rare indeed it is in these changing times that a book lives on through a century in ever-increasing demand and takes its place in current reading by the side of books dealing with present issues. Yet such is the enviable record of Early Writings of Ellen G. White. Through the years there have been printings of the several editions.',
-      pdf: '/pdfFiles/Desire of Ages.pdf'
+    title: 'The YOUTH',
+    audio: '/audios/The YOUTH - Mr. Jjuuko.mp3',
   },
 ];
 
