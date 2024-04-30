@@ -74,7 +74,7 @@ export default function FooterSection() {
         <Link href="https://www.facebook.com/SDAMTC">
           <FaFacebook className="text-blue-500 text-2xl md:text-3xl" />
         </Link>
-        <Link href="#">
+        <Link href="https://chat.whatsapp.com/CAHDOErkF973vfkTxCFvrE">
           <FaWhatsapp className="text-green-500 text-2xl md:text-3xl" />
         </Link>
         <Link href="https://youtube.com/@SDAMasakaTownChurchMTC?si=bVkSlw6XMjj1v_S_">
