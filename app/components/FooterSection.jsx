@@ -71,7 +71,7 @@ export default function FooterSection() {
         </div>
       </div>
       <div className="flex items-center justify-between gap-6 mt-4 mb-4 px-8 w-full md:w-1/3">
-        <Link href="#">
+        <Link href="https://www.facebook.com/SDAMTC">
           <FaFacebook className="text-blue-500 text-2xl md:text-3xl" />
         </Link>
         <Link href="#">
