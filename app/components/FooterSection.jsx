@@ -80,7 +80,7 @@ export default function FooterSection() {
         <Link href="https://youtube.com/@SDAMasakaTownChurchMTC?si=bVkSlw6XMjj1v_S_">
           <FaYoutube className="text-red-600 text-2xl md:text-3xl" />
         </Link>
-        <Link href="#">
+        <Link href="https://www.tiktok.com/@sdamasakatownchurch?_t=8oEVc8M1Xbp&_r=1">
           <FaTiktok className="text-xl" />
         </Link>
       </div>
